@@ -14,14 +14,16 @@ class TreeNode {
 }
 
 function rightSideView(root: TreeNode | null): number[] {
-  let queue = [];
-  let nextQueue = [];
-  const res = [];
+  if (!root) return [];
+
+  let queue: TreeNode[] = [];
+  let nextQueue: TreeNode[] = [];
+  const res: number[] = [];
 
   queue.push(root);
 
   while (queue[0]) {
-    const node = queue.shift();
+    const node = queue.shift() as TreeNode;
     if (node.left) nextQueue.push(node.left);
     if (node.right) nextQueue.push(node.right);
 
