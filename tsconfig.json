@@ -1,6 +1,7 @@
 {
   "extends": "@tsconfig/node16",
   "compilerOptions": {
-    "outDir": "dist"
+    "lib": ["es2021", "DOM"],
+    "moduleDetection": "force"
   }
 }
