@@ -30,6 +30,10 @@ Not much to see here. So I've tried hax of global cache and...
 They didn't work! Damn! Well, I've invented completely new section of these
 READMEs to enjoy the fun of hax.
 
+## Ideal leetcode solution
+
+...is the same as mine.
+
 ## Benchmarks
 
 ```
