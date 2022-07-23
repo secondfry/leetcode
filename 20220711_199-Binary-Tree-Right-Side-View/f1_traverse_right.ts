@@ -1,11 +1,11 @@
 // Author: Rustam SecondFry Gubaydullin <secondfry+github@gmail.com>
-// 158 / 216 test cases passed.
+// 37 / 216 test cases passed.
 // Status: Wrong Answer
 
-// Submitted: 8 minutes ago
-// Input: [1,2,3,4]
-// Output: [1,3]
-// Expected: [1,3,4]
+// Submitted: 9 minutes ago
+// Input: [1,2]
+// Output: [1]
+// Expected: [1,2]
 
 class TreeNode {
   val: number;
@@ -23,8 +23,10 @@ function rightSideView(root: TreeNode | null): number[] {
 
   while (root) {
     res.push(root.val);
-    root = root.right ?? root.left;
+    root = root.right;
   }
 
   return res;
 }
+
+export default rightSideView;

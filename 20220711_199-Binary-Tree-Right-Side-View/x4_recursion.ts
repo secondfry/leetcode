@@ -31,3 +31,5 @@ const solve = (root: TreeNode | null, res: number[], depth: number) => {
 function rightSideView(root: TreeNode | null): number[] {
   return solve(root, [], 0);
 }
+
+export default rightSideView;

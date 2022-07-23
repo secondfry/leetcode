@@ -41,3 +41,5 @@ function findPaths(m: number, n: number, maxMove: number, startRow: number, star
 
   return result;
 };
+
+export default findPaths;

@@ -39,3 +39,13 @@ increasing and decreasing sequences but didn't even start
 thinking if I can use it somehow.
 
 Sometimes you need more math :D.
+
+## Benchmarks
+
+```
+01_neighbour-graph.ts x 20,075 ops/sec ±0.15% (99 runs sampled)
+02_remove-third-pass.ts x 19,894 ops/sec ±0.52% (100 runs sampled)
+Fastest is 01_neighbour-graph.ts
+```
+
+Interesting result! I guess some engine optimizations affecting this.

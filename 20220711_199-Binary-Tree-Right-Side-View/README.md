@@ -28,6 +28,16 @@ if better answer exists.
 
 ## Ideal leetcode solution
 
-...seems to be reached by my final accepted solution. Have to note toh that
+...seems to be reached by my final accepted solution. Have to note tho that
 there is a recursive approach, but worst case scenario space complexity is
 O(n) too (in case on a sweked tree).
+
+## Benchmarks
+
+```
+03_bfs.ts x 29,141 ops/sec ±0.27% (97 runs sampled)
+x4_recursion.ts x 136,656 ops/sec ±0.13% (96 runs sampled)
+Fastest is x4_recursion.ts
+```
+
+Huh!.. Couldn't guess

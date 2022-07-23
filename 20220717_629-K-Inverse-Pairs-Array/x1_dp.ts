@@ -33,3 +33,5 @@ function kInversePairs(n: number, k: number): number {
 
   return data[n]?.[k] ?? 0;
 };
+
+export default kInversePairs;

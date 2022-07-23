@@ -18,3 +18,5 @@ function findPaths(m: number, n: number, maxMove: number, startRow: number, star
       findPaths(m, n, maxMove - 1, startRow, startColumn + 1) +
       findPaths(m, n, maxMove - 1, startRow, startColumn - 1);
 };
+
+export default findPaths;

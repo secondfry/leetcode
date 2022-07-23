@@ -47,3 +47,11 @@ Complexity Analysis:
 
 - Time complexity : O(m * n * maxMove). Iterating m * n array maxMove times.
 - Space complexity : O(m * n). Cache size for current and previous DP step.
+
+## Benchmark
+
+```
+x2_memoized_bruteforce.ts x 1,362 ops/sec ±0.18% (100 runs sampled)
+x3_dp.ts x 2,541 ops/sec ±0.08% (101 runs sampled)
+Fastest is x3_dp.ts
+```

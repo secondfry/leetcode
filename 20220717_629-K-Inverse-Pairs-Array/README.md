@@ -28,7 +28,7 @@ Personally I didn't like approach with cumulative sum and preferred
 
 Solution time – 38m 25s (including waiting for tests).
 
-> Runtime: 444 ms, faster than 100.00% of TypeScript online submissions for K Inverse Pairs Array.
+> Runtime: 444 ms, faster than 100.00% of TypeScript online submissions for K Inverse Pairs Array.  
 > Memory Usage: 76.4 MB, less than 100.00% of TypeScript online submissions for K Inverse Pairs Array.
 
 Complexity Analysis:
@@ -41,3 +41,10 @@ that you only use last row of DP.
 
 Also it seems there is no competition in TS submissions and even in JS ones
 time and memory of all submissions are all in one place exactly.
+
+## Benchmarks
+
+```
+x1_dp.ts x 1,338,536 ops/sec ±0.10% (100 runs sampled)
+Fastest is x1_dp.ts
+```

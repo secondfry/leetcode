@@ -59,3 +59,5 @@ function candy(ratings: number[]): number {
 
   return sum;
 }
+
+export default candy;
